@@ -12,6 +12,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     RouterModule.forRoot(routes)
+    //configures with routes, uses forRoot bc it's configured at app root level
   ],
   exports: [RouterModule]
 })
